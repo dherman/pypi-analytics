@@ -1,0 +1,25 @@
+{
+  "name": "pypi-analytics",
+  "version": "0.0.1",
+  "description": "Analytics for the PyPi index",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dherman/pypi-analytics.git"
+  },
+  "author": "Dave Herman <dherman@mozilla.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dherman/pypi-analytics/issues"
+  },
+  "homepage": "https://github.com/dherman/pypi-analytics#readme",
+  "dependencies": {
+    "fetch": "^1.0.1",
+    "lodash": "^4.6.1",
+    "rsvp": "^3.2.1",
+    "throat": "^2.0.2"
+  }
+}
